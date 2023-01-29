@@ -1,7 +1,6 @@
 const Map = ({ mapData }) => {
   return (
     <div className='row row-cols-1 row-cols-md-3 g-4'>
-      {console.log(mapData)}
       {mapData &&
         mapData.map((item) => (
           <div className='col' key={item.uuid}>

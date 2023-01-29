@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 const Characters = ({ newData }) => {
   return (
     <div className='row row-cols-1 row-cols-md-3 g-4'>
-      {console.log(newData)}
       {newData &&
         newData.map((item) => (
           <div className='col' key={item.uuid}>

@@ -10,7 +10,6 @@ const CharacterDetails = ({ newData }) => {
             .filter((item) => item.uuid === karakter.karakter)
             .map((ele) => (
               <div key={ele.uuid}>
-                {console.log(ele)}
                 <div className='card mb-3 mt-4'>
                   <div className='row g-0'>
                     <div className='col-md-4 '>
